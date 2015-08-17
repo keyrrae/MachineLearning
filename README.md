@@ -1,3 +1,4 @@
-# MachineLearning
+# MachineLearning Studies
 
 Matlab/octave
+
