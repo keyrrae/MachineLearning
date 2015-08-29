@@ -7,3 +7,12 @@ y=y(p);
 
 t=zeros(3,1);
 l=1;
+
+for i=1:length(x)
+  xi=x(i,:)';
+  yi=y(i);
+  t=t+yi*max(O,1-t'*xi*yi)/(xi'*xi+l)*xi;
+end
+
+figure(1);
+clf
