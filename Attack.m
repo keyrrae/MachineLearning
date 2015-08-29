@@ -15,4 +15,7 @@ for i=1:length(x)
 end
 
 figure(1);
-clf
+clf;
+hold on;
+
+plot(
